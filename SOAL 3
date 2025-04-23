@@ -1,0 +1,13 @@
+void main() {
+  List<int> angka = [10, 20, 30, 40, 50];
+
+  angka.add(60);
+  angka.insert(2, 25);
+
+  angka[3] = 35;
+
+  angka.removeAt(3);
+
+  print("List angka setelah operasi:");
+  print(angka);
+}
