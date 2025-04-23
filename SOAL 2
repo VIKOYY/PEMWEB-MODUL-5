@@ -1,0 +1,10 @@
+void main() {
+  List<Map<String, dynamic>> produk = [
+    {'nama': 'Laptop', 'harga': 7500000},
+    {'nama': 'Mouse', 'harga': 150000},
+    {'nama': 'Keyboard', 'harga': 250000},
+  ];
+
+  print("Data produk:");
+  print(produk);
+}
