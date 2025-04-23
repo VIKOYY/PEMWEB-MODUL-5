@@ -1,0 +1,9 @@
+void main() {
+  Map<String, List<String>> hobi = {
+    'Lani': ['Membaca', 'Memancing', 'Bersepeda'],
+    'Reno': ['Melukis', 'Bernyanyi'],
+  };
+
+  print("Hobi masing-masing orang:");
+  print(hobi);
+}
